@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dealmint-india.example.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dealmint-india.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
